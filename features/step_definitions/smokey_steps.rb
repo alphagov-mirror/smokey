@@ -9,9 +9,9 @@ Given /^I am testing "(.*)"/ do |host|
 end
 
 Given /^I am testing through the full stack$/ do
-  @host = ENV["GOVUK_WEBSITE_ROOT"]
-  @bypass_varnish = false
-  @authenticated = true
+  # @host = ENV["GOVUK_WEBSITE_ROOT"]
+  # @bypass_varnish = false
+  # @authenticated = true
 end
 
 Given /^I force a varnish cache miss$/ do
